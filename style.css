@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{padding:0;
+margin:0;}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.first{
+    background-color:  hsl(31, 77%, 52%);
+    max-width: 280px;
+    min-height: 500px;
+    padding-left: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.first img{
+    position: relative;
+    top:50px;
+}
+.first h1{
+    position: relative;
+    top:80px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    Font-size: 40px
+}
+.first p{
+    margin-right: 115px;
+    position: relative;
+    top:110px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    Font-size: 15px;
+}
+.first button{
+    position: relative;
+    top:190px;
+    color:hsl(31, 77%, 52%);
+}
+.second{
+    background-color:   hsl(184, 100%, 22%);
+    max-width: 280px;
+    min-height: 500px;
+    padding-left: 50px; 
+}
+.second img{
+    position: relative;
+    top:50px;
+}
+.second h1{
+    position: relative;
+    top:80px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    Font-size: 40px
+}
+.second p{
+    margin-right: 120px;
+    position: relative;
+    top:110px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    Font-size: 15px
+}
+.second button{
+    position: relative;
+    top:190px;
+    color:hsl(184, 100%, 22%);
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    max-width: 280px;
+    min-height: 500px;
+    padding-left: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.third img{
+    position: relative;
+    top:50px;
+}
+.third h1{
+    position: relative;
+    top:80px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    Font-size: 40px
+}
+.third p{
+    margin-right: 100px;
+    position: relative;
+    top:110px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    Font-size: 15px;
+}
+.third button{
+    position: relative;
+    top:190px;
+    color:hsl(179, 100%, 13%);
+}
+button{
+    padding:15px 35px 15px 35px;
+    border:none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    Font-size: 15px;
+}
+.fis:hover{
+    background-color:hsl(30, 82%, 83%) ;
+}
+.sec:hover{
+    background-color:hsl(185, 80%, 84%) ;
+}
+.thi:hover{
+    background-color:hsl(179, 76%, 56%) ;
+}
+@media only screen 
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .first{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius:10px;
+        min-height: 450px;
+        position: relative;
+        top:5px;
+    }
+    .third{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius:10px;
+        min-height: 450px;
+    }
+    .second{
+        min-height: 450px;
+    }
+    .first button{
+        position: relative;
+        top:150px;
+    }
+    .second button{
+        position: relative;
+        top:150px;
+    }
+    .third button{
+        position: relative;
+        top:150px;
+    }
+  }
